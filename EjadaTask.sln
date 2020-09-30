@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejada.API", "Ejada.API\Ejada.API.csproj", "{99CBB2E3-37D5-4E4D-8BD8-C697D0283BBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{370AA41B-A3FC-44E2-B532-29974403A91D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{E4A2F8E9-C64A-4CC9-B32A-B7071D445EA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{245AAE67-0B33-4A5F-8F51-8B03E4A26942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejada.Business", "Ejada.Business\Ejada.Business.csproj", "{6DB37B82-5578-4CEA-87B6-D3041B0733CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejada.Data", "Ejada.Data\Ejada.Data.csproj", "{05FE8F85-B36E-4A64-8CEB-AAF2218877D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejada.Entities", "Ejada.Entities\Ejada.Entities.csproj", "{F110C537-C12E-4504-B4DE-9DC2D6FC125F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{E1C0CD09-B6CE-45B4-AD27-02B88C04FB17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejada.Shared", "Ejada.Shared\Ejada.Shared.csproj", "{51A52CA8-B9C2-49CA-9EED-D48FDF0CADD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99CBB2E3-37D5-4E4D-8BD8-C697D0283BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99CBB2E3-37D5-4E4D-8BD8-C697D0283BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99CBB2E3-37D5-4E4D-8BD8-C697D0283BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99CBB2E3-37D5-4E4D-8BD8-C697D0283BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DB37B82-5578-4CEA-87B6-D3041B0733CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB37B82-5578-4CEA-87B6-D3041B0733CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB37B82-5578-4CEA-87B6-D3041B0733CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB37B82-5578-4CEA-87B6-D3041B0733CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05FE8F85-B36E-4A64-8CEB-AAF2218877D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05FE8F85-B36E-4A64-8CEB-AAF2218877D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05FE8F85-B36E-4A64-8CEB-AAF2218877D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05FE8F85-B36E-4A64-8CEB-AAF2218877D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F110C537-C12E-4504-B4DE-9DC2D6FC125F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F110C537-C12E-4504-B4DE-9DC2D6FC125F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F110C537-C12E-4504-B4DE-9DC2D6FC125F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F110C537-C12E-4504-B4DE-9DC2D6FC125F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A52CA8-B9C2-49CA-9EED-D48FDF0CADD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A52CA8-B9C2-49CA-9EED-D48FDF0CADD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A52CA8-B9C2-49CA-9EED-D48FDF0CADD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A52CA8-B9C2-49CA-9EED-D48FDF0CADD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99CBB2E3-37D5-4E4D-8BD8-C697D0283BBF} = {370AA41B-A3FC-44E2-B532-29974403A91D}
+		{6DB37B82-5578-4CEA-87B6-D3041B0733CF} = {245AAE67-0B33-4A5F-8F51-8B03E4A26942}
+		{05FE8F85-B36E-4A64-8CEB-AAF2218877D8} = {E4A2F8E9-C64A-4CC9-B32A-B7071D445EA0}
+		{F110C537-C12E-4504-B4DE-9DC2D6FC125F} = {E4A2F8E9-C64A-4CC9-B32A-B7071D445EA0}
+		{51A52CA8-B9C2-49CA-9EED-D48FDF0CADD3} = {E1C0CD09-B6CE-45B4-AD27-02B88C04FB17}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAEC638D-7C20-4AD3-95EA-5C2D5327BE33}
+	EndGlobalSection
+EndGlobal
